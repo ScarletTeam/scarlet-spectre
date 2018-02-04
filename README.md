@@ -13,7 +13,7 @@ The tool is capable of automatically acquiring network configuration data from t
 ## Usage:
 Just get a new **Debian 9** install on a VM and then execute setup.sh **AS ROOT** 
 ```
-./setup.exe
+./setup.sh
 ```
 
 Then, just use Rufus to burn the resulting image.
