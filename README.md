@@ -1,3 +1,4 @@
+![alt text](https://www.dropbox.com/s/iz10l0ukjf8u3f0/RevisionArtboard_1_copy.png?raw=1)
 # Scarlet Spectre
 This a tool to build a Debian 9 live boot iso to automate the pentest process on Windows based networks.
 
