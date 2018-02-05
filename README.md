@@ -20,7 +20,7 @@ Then, just use Rufus to burn the resulting image.
 ### This is a PoC
 I recommend you git clone/checkout this on a Debian 9 freshly installd VM.
 
-The iso has been tested using Rufus 2.18 for burning it into the USB Flash Drive.
+The iso has been tested using Rufus 2.18 for burning it into the USB Flash Drive on **ISO mode**.
 
 
 
