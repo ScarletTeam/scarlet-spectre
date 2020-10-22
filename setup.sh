@@ -1,14 +1,14 @@
 #!/bin/bash
 apt-get install --yes --force-yes debootstrap syslinux isolinux squashfs-tools genisoimage 
 mkdir -p chroot
-debootstrap --arch=i386 --variant=minbase stretch chroot http://ftp.us.debian.org/debian/
+debootstrap --arch=amd64 --variant=minbase stable chroot http://ftp.us.debian.org/debian/
 chroot chroot /spectre/install.sh
 
 mkdir -p image/
-mkdir -p image/{live,isolinux}
+mkdir -p image/{isolinux,live}
 cp chroot/boot/isolinux.cfg image/isolinux/isolinux.cfg
-(  cp chroot/boot/vmlinuz* image/live/vmlinuz1 && \
-    cp chroot/boot/initrd* image/live/initrd1
+(  cp chroot/boot/vmlinuz* image/live/vmlinuz && \
+    cp chroot/boot/initrd* image/live/initrd
 )
 git clone https://github.com/Neohapsis/creddump7.git chroot/spectre/creddump7
 git clone https://github.com/SpiderLabs/Responder.git chroot/spectre/Responder
