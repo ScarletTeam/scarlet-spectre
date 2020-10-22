@@ -1,6 +1,5 @@
-![alt text](https://www.dropbox.com/s/iz10l0ukjf8u3f0/RevisionArtboard_1_copy.png?raw=1)
 # Scarlet Spectre
-This is a tool for building the latest Debian  live boot ISO capable of automating part of the penetration test procedures on Windows based networks.
+This is a tool for building a  live boot ISO capable of automating part of the penetration test procedures on Windows based networks.
 
 ## How it works?
 It presumes you are able to boot from a USB Flash Drive on the target machine.
